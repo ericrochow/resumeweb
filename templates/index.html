@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="wrapper">
+    {% include 'includes/sidebar.html' %}
+    <div class="main-wrapper">
+
+        {% include 'includes/career-profile.html' %}
+
+        {% include 'includes/experience.html' %}
+
+        {% include 'includes/certifications.html' %}
+
+        {% include 'includes/skills.html' %}
+
+        {% include 'includes/side_projects.html' %}
+
+        {% include 'includes/preferences.html' %}
+
+    </div><!--//main-body-->
+</div>
+
+{% endblock %}
